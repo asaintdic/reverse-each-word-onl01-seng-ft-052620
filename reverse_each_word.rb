@@ -12,7 +12,7 @@ reverse_each_word("Hello there, and how are you?")
 
 def reverse_each_word(sentence1)
 
-sentence1.split.collect do |words| new_array << "#{words}".reverse
+sentence1.split.collect do |words| "#{words}".reverse
   end
 new_array.join(" ")
 end

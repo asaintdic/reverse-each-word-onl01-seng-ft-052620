@@ -11,8 +11,8 @@ reverse_each_word("Hello there, and how are you?")
 # return those words back to a new arrayconvert that array back to a string
 
 def reverse_each_word(sentence1)
-
-sentence1.split.collect do |words| "#{words}".
+new_array = []
+sentence1.split.collect do |words| new_array << "#{words}".
   end
 new_array.join(" ")
 end
